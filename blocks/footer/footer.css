@@ -1,5 +1,7 @@
 /*подвал*/
 .footer {
+    margin: auto;
+    max-width: 1184px;
     display: flex;
     justify-content: space-between;
   
@@ -7,7 +9,7 @@
   }
 
 
-@media screen and (width: 568px) { 
+@media screen and (min-width: 425px) and (max-width: 768px) { 
   .footer {
       display: flex;
       flex-direction: column;

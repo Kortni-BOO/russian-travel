@@ -1,0 +1,29 @@
+/*блок с кучей элементов*/
+.places {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 92px;
+    
+  }
+@media screen and (max-width: 568px) {
+  .places {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 64px;
+    
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 414px){
+  .places {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 64px;
+    
+  }
+}

@@ -1,0 +1,59 @@
+/* блок с гридами*/
+.photo-grid {
+    margin: auto;
+    width: 1184px;  
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 16px;
+     
+  }
+  @media screen and (max-width: 1024px) {
+    .photo-grid {
+        margin: auto;
+        width: 928px;  
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: auto;
+        grid-gap: 14px;
+         
+      }
+    }    
+@media screen and (min-width: 736px) and (max-width: 812px){
+  .photo-grid {
+    margin: auto;
+    width: 720px;  
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-gap: 16px;
+     
+  }
+}
+@media screen and (max-width: 568px) {
+  .photo-grid {
+    margin: auto;
+    width: 568px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 12px;
+     
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 414px){
+  .photo-grid {
+    margin: auto;
+    width: 288px;  
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 12px;
+     
+  }
+}

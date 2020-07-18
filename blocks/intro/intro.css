@@ -1,0 +1,39 @@
+/*блок с текстом где я не знаю как его разместить*/
+.intro {
+    padding-top: 114px;
+    margin: 0;
+    max-width: 984px;
+    padding-bottom: 92px;
+    margin: auto;
+  
+  }
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 114px;
+    margin: 0;
+    max-width: 720px;
+    padding-bottom: 92px;
+    margin: auto;
+  
+  }
+}
+@media screen and (max-width: 568px) {
+  .intro {
+    padding-top: 114px;
+    margin: 0;
+    max-width: 568px;
+    padding-bottom: 64px;
+    margin: auto;
+  
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 414px){
+  .intro {
+    padding-top: 114px;
+    margin: 0;
+    max-width: 288px;
+    padding-bottom: 64px;
+    margin: auto;
+  
+  }
+}

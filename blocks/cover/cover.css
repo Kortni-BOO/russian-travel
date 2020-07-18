@@ -14,6 +14,7 @@
         background-image: url(../../sprint-3-images/cover-trains.jpg);
         background-size: cover;
         max-width: 768px;
+        min-width: 425px;
         position: relative;
         min-height: 480px;
       

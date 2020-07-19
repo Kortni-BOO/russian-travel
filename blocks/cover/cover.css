@@ -17,6 +17,7 @@
         min-width: 425px;
         position: relative;
         min-height: 480px;
+        margin-bottom: 64px;
       
      
     }
@@ -29,6 +30,7 @@
         min-width: 320px;
         max-width: 414px;
         position: relative;
-        min-height: 200px;    
+        min-height: 200px;  
+        margin-bottom: 64px;  
     }
 }

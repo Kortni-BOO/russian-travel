@@ -20,21 +20,21 @@
         font-size: 42px;
         line-height: 46px;  
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-end; 
         flex-direction: column;
       
       
     }
 }
-@media screen and(min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
     .place__title {
-        width: 288px;
-        margin: auto;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
-        padding-bottom: 32px;
+        width: 300px;
+        margin: auto; 
+        font-style: normal; 
+        font-weight: 900; 
+        font-size: 60px;
+        line-height: 1.15;
+        padding-bottom: 25px;
   
     }
 }
@@ -42,7 +42,7 @@
     .place__title {
         width: 288px;
         margin: auto;
-        font-style: normal;
+        font-style: normal; 
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;

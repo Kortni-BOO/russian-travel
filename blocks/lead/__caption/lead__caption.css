@@ -28,6 +28,7 @@
   .lead__caption {
     text-transform: uppercase;
     letter-spacing: 0.15em;
+    padding-left: 0;
 
   }
 }
